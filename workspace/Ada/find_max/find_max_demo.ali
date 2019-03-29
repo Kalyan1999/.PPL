@@ -1,0 +1,51 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U find_max_demo%b	find_max_demo.adb	623bbcee NE OO SU
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D find_max_demo.adb	20190328165957 27ed9a27 find_max_demo%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D text_io.ads		20070406091342 45d626c9 text_io%s
+X 6 a-textio.ads
+263U14*Put_Line 8|17s5
+X 8 find_max_demo.adb
+2U11*Find_Max_Demo 2b11 18t4
+3i5 c{integer} 16m22 17r46
+5U15 Find_Max 5b15 5>24 5>27 6<25 13t8 16s5
+5i24 a{integer} 8r12 9r16
+5i27 b{integer} 8r16 11r16
+6i25 c{integer} 9m13 11m13
+X 25 text_io.ads
+24K9*Text_IO=24:29 8|1w6 1r19
+

@@ -1,0 +1,63 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U continuation%b	continuation.adb	4d115753 NE OO SU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinau.ads		20090409150019 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20091130162119 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D continuation.adb	20190329133734 08c7719a continuation%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D text_io.ads		20070406091342 45d626c9 text_io%s
+X 6 a-textio.ads
+263U14*Put_Line 11|15s17 20s21 21s21 23s21 24s21
+298X4*Data_Error 11|19r22
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 11|7r35
+56U14 Get 11|16s17[7]
+X 11 continuation.adb
+4U11*Continuation 4b11 28l5 28t17
+5I10 Age_Type<short_short_integer> 6r43 7r47
+6A10 Age_List_Type(5I10)<integer> 9r15
+7K13 AGE_IO[8|46] 8r9
+9a5 Age_List{6A10} 16m21 16r21
+11i9 Age_Count{integer} 16r30
+13q9 Except_Blk 25l17 25e27
+X 26 text_io.ads
+24K9*Text_IO=24:29 11|1w6 2r5 7r27
+
