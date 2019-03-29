@@ -1,4 +1,4 @@
-# Docker Container for PPL Course
+# Docker Container for Principles of Programming Languages Course
 
 ## Langages Included
   * Ada
