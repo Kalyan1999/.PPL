@@ -33,8 +33,17 @@
 ## Installation
   
   1. Go-To [Docker Website](https://www.docker.com/products/docker-desktop), download and install docker for your platform
+
+  2. Clone this Repo
+     
+     * Click the Download in the Upper right-hand corner
+
+     * Or use this command
+       ```
+       git clone https://github.com/SaiHemanthBR/.PPL.git
+       ```
   
-  2. Build the Container
+  3. Build the Container
      ```
      docker build -t PPL .
      ```
