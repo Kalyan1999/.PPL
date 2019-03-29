@@ -26,7 +26,7 @@
 
   1. Docker Desktop.
   
-  2. At least 6GB of free storage on Drive.
+  2. At least 6.5 GB of free storage on Drive.
   
   3. A Good Internet Connection or LOTS of Patience.
 
